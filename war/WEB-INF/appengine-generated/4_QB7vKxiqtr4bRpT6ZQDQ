@@ -1,0 +1,38 @@
+wifi pw: B9E098093BBCF23ACEDEF33D69
+http://intranet.hkmci.com
+http://google.hkmci.com
+shared docs:
+Social Hunter Issue List
+*Set rules according to the white column/cell
+*Types: news | forum 
+http://download.eclipse.org/technology/m2e/releases/1.4/1.4.0.20130601-0317
+Project sa-storm-spider-rule-tester
+create a new properties files in src/main/resources
+**ex.rules.properties
+**escape special characters,e.g.":" (See 'SA Crawler Rule Creation Tricks')
+check if the content is completed
+seedURL:your search starting point
+regularList:Listing all the results
+maxTweetPerPage:numbers of results shown per pages
+type:"1"-news;"2"-forum
+startingSeedId:uniqueId for each query(X repeat in my results)
+siteId:uniqueId for each query(X repeat in my results)
+
+regularList:distinguish between ads and results
+-------------------------------------------
+select the scope: the outmost DOM element ('div') that contain the required content
+exclude ads by specifying the regex contained in the relevant links
+regex rules (See 'SA Crawler Rule Creation Tricks')
+paginationLink.scope: class of paging elements
+paginationLink.param: class-of-current-page;start-from-page
+
+
+ruleList
+--------------------------------------------
+fill only if requirement need to be specified
+sReg: Regular expression of the relevant content
+**change the first 4 items only**
+eg. 'PDATE'
+sSelector: selector containing the required content (Similar to regularList setting)
+sFormat:date-format
+isTime:1 (true only if it is datetime content)

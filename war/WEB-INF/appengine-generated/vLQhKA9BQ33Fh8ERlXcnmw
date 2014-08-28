@@ -1,0 +1,94 @@
+wcm reference:
+layout - e-cantonfair.com
+function - hktdc.com
+templates:
+- homepage(Banner + search engine, ref.hktdc.com)
+- display seller's profile
+- display product information
+- generate menu bar
+- search company/product/services(search box at homepage)
+ |- use storm's framework
+- my basket(ref. hktdc.com)
+ |- enquire (send email to seller company)
+   >> ref. Yii contact form model
+ |- selectbox
+for buyer:
+- registration form
+- view enquiry history (all enquiries sent) 
+ |- save email sent to db
+	>> CRUD, form controller
+------------- layout design --------------
+### questions ###
+- min browser support Ans. IE8
+- responsive layouts? Phase II
+- user registration forms?
+- my basket contact forms?
+- product/service categories: do we include ALL sub-cat in this page?
+products:
+http://www.hktdc.com/suppliers/china-wholesale-suppliers/en
+services:
+http://service-providers.hktdc.com/ (menu at left hand side)
+- country list?
+- provinces: all Chinese provinces and 3 hk areas?
+- my basket: is there max limit on item stored?
+- company profile / product detail pages (layout sent already)
+
+
+1. supplier search
+- search align centre
+- navigation: static pages displaying full list of category icon
+ |- align table display
+- choose either a category or company name or hot keywords
+2. news/events
+- scrollable news/events panels?
+- max 10 news divided by 3
+- 3/2 subcategories 
+3. Banner management
+- 4 levels displaying alongside search result and main pages
+- need admin console to manage the images to be displayed
+
+4. footer
+- back to top
+- text menu list
+------------- yii framework -------------
+create a new project cmd:
+yiic.php webapp testdrive
+form submission: 
+- __(): gettext
+- to get the submitted data: '$_POST[model_name][column]'
+- action path: 'controller/action', e.g. 'company/create' for CompanyController/actioncreate
+- make sure user has the access right to use the method
+- view pagination&sorting: default using ajax to switch pages
+ * Store variables in session object to prevent data lost! 
+-admin login:
+username:vicki
+password:vicki.lam
+
+admin panel:
+- source code in lwb\protected\modules\admin
+ |- components: base classes
+   |- AuthAdmin: control login/security check...
+     |- select 'dbap' when initialized
+     |- LoginController: apply SecurityCheck & LoginCheck to verify username and password
+     |- base component: UserIdentity - compare input with db id&pw
+   |- AuthAdmin: control custom setting by session
+     |- menus, languages, favourites, update last login ip in db
+   |- ModAdminController: control basepaths, layout settings when initialized 
+   	 |- switching 'tab'(views): getter/setters
+   	 |- switching modules: moduleXs
+   	 |- customize search: search/sqlsetting related functions
+   |- XmanagementController: customize the input form, customized options (e.g. datetime,content etc.) of the website content
+     |- ref. categories: input field for title, content in three language
+     |- use getFormSelectOptionsData() to select the saved content and display as value in different types of input field
+ |- views: each 'tab' has its own folder for different pageviewes
+   |- layouts: control the look and feel of each page
+ |- MyListView: customize listview to enable page switching
+   |- if result count > row per page, you should query twice or more with offset N 
+   e.g. SELECT * FROM table LIMIT 10 OFFSET 10
+  
+  
+2014/02/18 updated-
+  pages to be implemented:
+   - enable all header and footer links (dummy pages)
+   - signin & signup form
+   - 

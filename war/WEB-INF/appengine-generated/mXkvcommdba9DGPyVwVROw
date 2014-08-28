@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chunwo - ACTING PERSONS</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/acting_persons.css">
+    <link rel="stylesheet" href="css/common.css">
+	<script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+    <script src="js/ICanHaz.min.js"></script>
+	
+	<script id="user" type="text/html">
+		<div class="flowing_page {{num}}">
+            <button id="top_bar">
+                <div class="delete_acting"><img src="img/people.png" width="30"><h1>DELETE ACTING</h1></div>
+            </button>
+            
+            <div class="info">
+            
+            	<div class="acting_person">
+                	<p>Acting Person</p>
+                    <form>
+                        <select name="acting_person" style="width:100%">
+                            <option value="A">Chan Tai Man</option>
+                            <option value="B">Chan Siu Shan</option>
+                            <option value="C">Chan Tai Shan</option>
+                            <option value="D">Chan Sui Man</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="tasks">
+                	<p>Tasks</p>
+                    <form>
+        				<input type="text" name="remark" >
+    				</form>
+                </div>
+            </div>
+        </div><!--end of flowing_page-->
+    </script>
+    <script type="text/javascript">
+      // when the dom's ready
+	  var count = 0;
+	  
+      $(document).ready(function () {
+        // add a simple click handler for the "add user" button.
+        $('#acting_bar').click(function () {
+			$(".page_holder").css("width", "+=300");
+          var user_data, user;
+		  
+		  count ++;
+
+          // build a simple user object, in a real app this
+          // would probably come from a server somewhere.
+          // Otherwise hardcoding here is just silly.
+          user_data = {
+            num: count,
+          };
+		  
+		  //var classname = $($'').
+
+          // Here's all the magic.
+          user = ich.user(user_data);
+
+          // append it to the list, tada!
+          //Now go do something more useful with this.
+          $('#user_list').append(user)(500);
+        });
+      });
+    </script>
+    
+
+    
+  </head>
+<body>
+
+<div class="header">
+	<div class="header_l">
+		<h1>ACTING PERSONS</h1>
+	</div>
+	<div class="header_r">
+		<div class="close">
+        	<button></button>
+        </div>
+	</div><!-- End of header_r-->
+</div><!-- End of header-->
+
+
+
+<div class="mid_content">
+    <div id="area">
+        <div class="page_holder">
+            <div id="user_list"></div>
+         </div>
+    </div><!-- End of area-->
+</div>
+<button id="acting_bar">
+	<p style="margin: 0 0 0 0;padding: 10px;">+ ACTING PERSON </p>
+</button>
+
+
+
+<div class="container">
+    <div id="bottom_btn">
+        <div class="back">
+            <button></button>
+        </div>
+        <div class="next">
+            <button></button>
+        </div>
+	</div><!-- End of bottom_btn-->
+</div><!-- End of container-->
+        
+    
+
+
+
+
+
+</div><!--End of container-->
+</body>
+</html>
+

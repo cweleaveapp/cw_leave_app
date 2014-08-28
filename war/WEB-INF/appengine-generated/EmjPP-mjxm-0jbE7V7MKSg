@@ -1,0 +1,37 @@
+Email Address ,Name,Job Title,Region,Hired Date,Birth Date,Resigned Date,Supervisor
+dennis.wong@hkmci.com,"Wong Chi Shun, Dennis",Director,Hong Kong,20-10-2003,25-04-1973,,
+alex.tang@hkmci.com,"Tang Man Fung, Alex",Senior Consultant,Hong Kong,10-04-2005,07-06-1974,,Raku Cheung
+eric.ng@hkmci.com,"Ng Tak Hung, Eric",Asst Technical Support Manager,Hong Kong,18-10-2005,09-11-1976,,Clement Wong
+derek.chan@hkmci.com,"Chan Wing Hong, Derek",Director,Hong Kong,01-03-2007,14-10-1975,,
+ricky.cheung@hkmci.com,"Cheung Chun Fai, Ricky",Director,Hong Kong,01-06-2007,17-03-1973,,
+clement.wong@hkmci.com,Wong Clement Man Hin,Technical Support. Manager,Hong Kong,18-06-2007,17-01-1977,,Derek Chan
+carol.chan@hkmci.com,"Chan Ying Ting, Carol",Enterprise Account Manager,Hong Kong,21-09-2010,20-11-1981,,Derek Chan
+lynn.liang@hkmci.com,"Liang Yan, Lynn",Finance Manager,Hong Kong,29-11-2010,29-08-1985,,Ricky Cheung
+judy.ng@hkmci.com,"Ng Mee Tse, Judy",HR Manager,Hong Kong,16-03-2011,25-12-1960,,Ricky Cheung
+michelle.law@hkmci.com,"Law Mi Ching, Michelle",Enterprise Account Manager,Hong Kong,06-04-2011,29-08-1978,,Derek Chan
+gordan.chan@hkmci.com,"Chan Cheuk Hei, Gordan",Support Engineer,Hong Kong,04-07-2011,27-03-1990,,Clement Wong
+homing.tam@hkmci.com,Tam Ho Ming,Solution Consultant,Hong Kong,19-09-2011,21-07-1987,,Derek Chan
+storm.ho@hkmci.com,"Ho Sze Pei, Storm",Analyst Programmer,Hong Kong,25-10-2011,02-12-1974,,Raku Cheung
+raku.cheung@hkmci.com,"Cheung Chung Lok, Raku",Technical Manager,Hong Kong,06-02-2012,10-05-1978,,Derek Chan
+grace.jiao@hkmci.com,"Jiao Geng Wei, Grace",GIS Specialist,Hong Kong,16-04-2012,05-02-1987,,Raku Cheung
+dev.chan@hkmci.com,"Chan Ngai, Dev",System Analyst,Hong Kong,16-04-2012,23-02-1982,,Raku Cheung
+jacky.au@hkmci.com,"Au Hiu Tung, Jacky",System Support Engineer,Hong Kong,18-06-2012,22-12-1983,,Clement Wong
+frank.wong@hkmci.com,"Wong Kam Chuen, Frank",Senior Analyst Programmer,Hong Kong,01-08-2012,31-08-1983,,Raku Cheung
+tom.chan@hkmci.com,"Chan Po Hing, Tom",General Manager,Hong Kong,03-09-2012,03-09-1962,,Derek Chan
+danny.ho@hkmci.com,"Ho Chun Ho, Danny",Solution Consultant,Hong Kong,10-09-2012,18-10-1981,,Derek Chan
+helic.leung@hkmci.com,"Leung Ming Lam, Helic",Senior Analyst Programmer,Hong Kong,04-10-2012,17-08-1987,,Derek Chan
+michael.sze@hkmci.com,"Sze Wing Kam, Michael",Enterprise Account Manager,Hong Kong,24-10-2012,28-03-1962,,Derek Chan
+nicole.chan@hkmci.com,"Chan Yuen Tung, Nicole",Marketing Executive,Hong Kong,09-01-2013,04-02-1988,,Dennis Wong
+cp.tse@hkmci.com,"Tse Cheuk Pun, CP",Enterprise Account Manager,Hong Kong,22-04-2013,10-09-1975,,Derek Chan
+gloria.ng@hkmci.com,"Ng Ngo Yee, Gloria",Sales Admin Clerk,Hong Kong,22-04-2013,08-08-1987,,Ricky Cheung
+crystal.yeung@hkmci.com,"Yeung Shuk Yi, Crystal",Account Clerk,Hong Kong,17-06-2013,18-08-1979,,Lynn Liang
+kennett.leung@hkmci.com,"Leung King Tsun, Kennett",Java Developer,Hong Kong,02-07-2013,15-05-1991,,Raku Cheung
+ci.wang@hkmci.com,"Wang Ying Si, Ci",System Analyst,Hong Kong,08-07-2013,25-10-1983,,Raku Cheung
+samson.ho@hkmci.com,"Ho Ka Chun, Samson",Accounting Officer,Hong Kong,17-07-2013,22-04-1986,,Lynn Liang
+jennifer.leung@hkmci.com,Leung Hin Chi Jennifer,Marketing Assistant,Hong Kong,26-08-2013,29-07-1991,,Dennis Wong
+murphy.yuo@hkmci.com,Yuo Pak Yin Murphy,Interactive Graphic Designer,Hong Kong,03-10-2013,02-09-1987,,Dennis Wong
+yk.wong@hkmci.com,Wong Yin Kit,Java Developer,Hong Kong,02-01-2014,06-08-1990,,Raku Cheung
+vicki.lam@hkmci.com,Lam Ka Kei Vicki,Java Developer,Hong Kong,07-01-2014,18-08-1988,,Raku Cheung
+jason.liang@hkmci.com,"Liang Zhixing, Jason",Google Apps Consultant,Hong Kong,05-02-2014,13-04-1989,,Clement Wong
+victor.leung@hkmci.com,Leung Wai Tak Victor,Enterprise Account Manager,Hong Kong,10-02-2014,30-04-1976,,Derek Chan
+thomas.tsui@hkmci.com,"Tsui Wai Hung, Thomas",Marketing Executive,Hong Kong,24-02-2014,24-06-1987,,homing
